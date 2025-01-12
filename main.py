@@ -10,5 +10,6 @@ print(2 * (2 + 2))
 print((2 * 2 + 2) == (2 * (2 + 2)))
 
 # 4st program
-print(((float(123.456) * 10) % 10))
+
+print(((int(float(123.456) * 10) % 10)))
 
